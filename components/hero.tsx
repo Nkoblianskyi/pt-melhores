@@ -9,7 +9,7 @@ export default function Hero() {
     <section
       className="relative h-[300px] flex items-center justify-center text-center"
       style={{
-        backgroundImage: `url('/bg.jpg')`,
+        backgroundImage: `url('/bg-pok.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
