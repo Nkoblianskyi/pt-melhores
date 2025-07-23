@@ -1,12 +1,10 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Header from "@/components/header"
 import Hero from "@/components/hero"
 import CasinoList from "@/components/casino-list"
 import SafeGaming from "@/components/safe-gaming"
 import AboutUs from "@/components/about-us"
-import Footer from "@/components/footer"
 import CookieBanner from "@/components/cookie-banner"
 import TopCasinoModal from "@/components/top-casino-modal"
 
@@ -38,12 +36,10 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-black">
-      <Header />
       <Hero />
       <CasinoList />
       <SafeGaming />
       <AboutUs />
-      <Footer />
 
       {!cookiesAccepted && <CookieBanner onAccept={handleCookieAccept} />}
 
