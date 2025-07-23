@@ -108,7 +108,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="mt-6 text-gray-400 text-xs">
+        <div className="mt-6 text-white text-xs">
           Ranking atualizado mensalmente • Última atualização: {currentMonth} {currentYear}
         </div>
       </div>
